@@ -27,8 +27,6 @@ Follow these steps to get the project up and running on your local machine:
    ```bash
    npm install
 
-This command installs all necessary dependencies defined in package.json.
-
 3. **Start Development Server:**
 
    ```bash
@@ -49,10 +47,6 @@ In the project directory, you can run the following commands:
 - `npm run build`: Builds the production-ready app.
 - `npm run test`: Launches the test runner.
 
-## Customize Configuration
-
-For advanced configuration needs, you can modify `vite.config.js` file.
-
 ## Learn More
 
 - Vite Documentation: [vitejs.dev](https://vitejs.dev/)
@@ -62,6 +56,6 @@ For advanced configuration needs, you can modify `vite.config.js` file.
 
 ### Notes:
 
-- **Repository URL**: Replace `https://github.com/jlisi321/commerce-team-coding-challenge` with your actual Git repository URL.
+- **Repository URL**: `https://github.com/jlisi321/commerce-team-coding-challenge`
 - **Commands**: The commands (`git clone`, `npm install`, `npm run dev`, etc.) are compatible across Mac, Linux, and Windows environments.
 - **Environment Compatibility**: Node.js and npm are cross-platform, ensuring compatibility across different operating systems.
