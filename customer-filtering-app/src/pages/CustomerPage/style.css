@@ -1,0 +1,15 @@
+.customer-page-container {
+    max-width: 800px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-page-heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
