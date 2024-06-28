@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css'; // Import your CSS file
-import CustomerList from '../../components/CustomerList';
+import CustomerList from '../../components/CustomerList.js';
 
 const CustomerPage = () => {
     return (
