@@ -1,4 +1,3 @@
-import React from 'react';
 import './style.css'; // Import your CSS file
 import CustomerList from '../../components/CustomerList.js';
 
