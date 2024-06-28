@@ -1,61 +1,44 @@
-# React Project with Vite and TypeScript
+# Full-Stack Customer List Project
 
-This project is a React application bootstrapped with Vite and TypeScript, providing a fast development environment and type safety.
+This project is a full-stack application designed as a coding challenge for the commerce team at New Relic. The application allows users to view and interact with a list of customers. It includes basic filtering and sorting functionalities to enhance the user experience.
 
-## Prerequisites
+## Overview
 
-Before you begin, ensure you have the following installed on your machine:
+The project consists of two main parts:
 
-- Node.js: Download and install Node.js from [nodejs.org](https://nodejs.org/). Make sure to install the LTS version.
-  - **Verify node is installed**
+- **Front End**: A React application that provides a user interface to display the customer list, along with search, filter, and sort features.
+- **Back End**: A Flask application that serves as an API to manage customer data, handle queries, and return the necessary data to the front end.
 
-     ```bash
-     node -v
+## Features
 
-## Getting Started
-
-Follow these steps to get the project up and running on your local machine:
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone <repository-url>
-   cd your-project-name
-
-2. **Install Dependencies**
-
-   ```bash
-   npm install
-
-3. **Start Development Server:**
-
-   ```bash
-   npm run dev
-
-Open http://localhost:3000 in your browser to view the application. The page will automatically reload if you make edits.
+- **Customer List**: Displays a list of customers with their first name, last name, and company name.
+- **Search**: Allows users to search for customers by their first or last name.
+- **Filter**: Provides a dropdown to filter customers by company name.
+- **Sort**: Enables sorting of customers by first name, last name, or company name in both ascending and descending order.
 
 ## Project Structure
 
-- **src/**: Contains all source code files.
-- **public/**: Public assets and HTML template.
+- **frontend/**: Contains the React front-end application.
+- **backend/**: Contains the Flask back-end application.
 
-## Available Scripts
+## Setup Instructions
 
-In the project directory, you can run the following commands:
+### Front End
 
-- `npm run dev`: Starts the development server.
-- `npm run build`: Builds the production-ready app.
-- `npm run test`: Launches the test runner.
+Navigate to the `customer-filter-app` directory and follow the instructions in the [Front End README](customer-filter-app/README.md) to set up and run the React application.
+
+### Back End
+
+Navigate to the `customer-filter-api` directory and follow the instructions in the [Back End README](customer-filter-api/README.md) to set up and run the Flask application.
+
+## Learn More
+
+For more detailed setup and configuration instructions, refer to the individual README files in the `customer-filter-app` and `customer-filter-api` directories.
+
 
 ## Learn More
 
 - Vite Documentation: [vitejs.dev](https://vitejs.dev/)
 - React Documentation: [reactjs.org](https://reactjs.org/)
 - TypeScript Documentation: [typescriptlang.org](https://www.typescriptlang.org/)
-
-
-### Notes:
-
-- **Repository URL**: `https://github.com/jlisi321/commerce-team-coding-challenge`
-- **Commands**: The commands (`git clone`, `npm install`, `npm run dev`, etc.) are compatible across Mac, Linux, and Windows environments.
-- **Environment Compatibility**: Node.js and npm are cross-platform, ensuring compatibility across different operating systems.
+- Flask Documentation: [flask.palletsprojects.com](https://flask.palletsprojects.com/)
