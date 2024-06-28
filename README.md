@@ -35,7 +35,6 @@ Navigate to the `customer-filter-api` directory and follow the instructions in t
 
 For more detailed setup and configuration instructions, refer to the individual README files in the `customer-filter-app` and `customer-filter-api` directories.
 
-
 ## Learn More
 
 - Vite Documentation: [vitejs.dev](https://vitejs.dev/)

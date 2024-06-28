@@ -60,7 +60,6 @@ In the project directory, you can run the following commands:
 - React Documentation: [reactjs.org](https://reactjs.org/)
 - TypeScript Documentation: [typescriptlang.org](https://www.typescriptlang.org/)
 
-
 ### Notes:
 
 - **Repository URL**: `https://github.com/jlisi321/commerce-team-coding-challenge`
