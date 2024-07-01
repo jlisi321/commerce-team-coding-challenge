@@ -32,7 +32,7 @@ Follow these steps to get the project up and running on your local machine:
    ```bash
    npm run dev
 
-Open http://localhost:3000 in your browser to view the application. The page will automatically reload if you make edits.
+Open http://localhost:3000 in your browser to view the application.
 
 ## Testing
 
@@ -44,6 +44,12 @@ Open http://localhost:3000 in your browser to view the application. The page wil
 ## Project Structure
 
 - **src/**: Contains all source code files.
+- **src/assets/** Contains all non public assets
+- **src/components/** Contains all widely reusable components
+- **src/pages/CustomerPage/** Contains all Customer Page related components
+- **src/services/** Contains all API service calls
+- **src/types/** Contains all type definitions
+- **src/test/** Contains all unit testing files
 - **public/**: Public assets and HTML template.
 
 ## Available Scripts

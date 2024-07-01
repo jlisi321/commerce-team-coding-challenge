@@ -81,6 +81,12 @@ This route returns a list of customers.
 ]
 ```
 
+## Project Structure
+
+- **app.py**: Contains flask server code
+- **init_db.py** Contains initial DB setup code
+- **test_app.py** Contains unit testing for the flask API
+
 ## Dependencies
 - Flask
 - Flask-CORS
