@@ -44,16 +44,11 @@ Before you begin, ensure you have the following installed on your machine:
    
 ## Testing (Follow Setup Instructions First)
 
-1. **Setup Virtual Environment In a New Tab**
+1. **Activate Virtual Environment**
    ```bash
-      python3 -m venv venv
       source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-2. **Install Dependencies**
-    ```bash
-   pip install Flask Flask-CORS Flask-SQLAlchemy Flask-Testing
-
-3. **Run the Testing**
+2. **Run the Testing**
     ```bash
    python test_app.py
 
