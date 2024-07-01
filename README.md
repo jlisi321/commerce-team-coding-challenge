@@ -6,20 +6,19 @@ This project is a full-stack application designed as a coding challenge for the 
 
 The project consists of two main parts:
 
-- **Front End**: A React application that provides a user interface to display the customer list, along with search, filter, and sort features.
-- **Back End**: A Flask application that serves as an API to manage customer data, handle queries, and return the necessary data to the front end.
+- **Front End (customer-filter-app)**: A React application that provides a user interface to display the customer list, along with search, filter, and sort features.
+- **Back End (customer-filter-api)**: A Flask application that serves as an API to manage customer data, handle queries, and return the necessary data to the front end.
 
 ## Features
 
 - **Customer List**: Displays a list of customers with their first name, last name, and company name.
-- **Search**: Allows users to search for customers by their first or last name.
 - **Filter**: Provides a dropdown to filter customers by company name.
 - **Sort**: Enables sorting of customers by first name, last name, or company name in both ascending and descending order.
 
 ## Project Structure
 
-- **frontend/**: Contains the React front-end application.
-- **backend/**: Contains the Flask back-end application.
+- **customer-filter-app/**: Contains the React front-end application.
+- **customer-filter-api/**: Contains the Flask back-end application.
 
 ## Setup Instructions
 

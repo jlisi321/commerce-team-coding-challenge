@@ -1,17 +1,15 @@
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CustomerPage from './pages/CustomerPage/CustomerPage';
 
-function App() {
+const App: React.FC = () => {
     return (
-        <div className="App">
-            <header className="App-header">
-                <h1>Customer Filtering App</h1>
-            </header>
-            <main>
-                <CustomerPage/>
-            </main>
-        </div>
+        <Router>
+            <Routes>
+                <Route path="/" element={<CustomerPage />} />
+            </Routes>
+        </Router>
     );
-}
+};
 
 export default App;

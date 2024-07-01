@@ -54,14 +54,7 @@ In the project directory, you can run the following commands:
 - `npm run build`: Builds the production-ready app.
 - `npm run test`: Launches the test runner.
 
-## Learn More
-
-- Vite Documentation: [vitejs.dev](https://vitejs.dev/)
-- React Documentation: [reactjs.org](https://reactjs.org/)
-- TypeScript Documentation: [typescriptlang.org](https://www.typescriptlang.org/)
-
 ### Notes:
 
-- **Repository URL**: `https://github.com/jlisi321/commerce-team-coding-challenge`
 - **Commands**: The commands (`git clone`, `npm install`, `npm run dev`, etc.) are compatible across Mac, Linux, and Windows environments.
 - **Environment Compatibility**: Node.js and npm are cross-platform, ensuring compatibility across different operating systems.
